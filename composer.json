@@ -1,0 +1,20 @@
+{
+    "name": "fidlines/fidlines",
+    "description": "Get random fidQ --Fareed Kubanda-- bars for your inspiration",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kee Nops",
+            "email": "git@kimwalu.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Fidlines\\Fidlines\\" : "src/"
+        }
+    }
+}
